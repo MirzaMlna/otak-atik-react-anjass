@@ -1,5 +1,6 @@
 import { useState } from "react";
 import NavbarAnjay from "./components/NavbarAnjay";
+import HeroSection from "./sections/HeroSection";
 
 const useTheme = () => {
   const [lightTheme, setLightTheme] = useState(true);
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <NavbarAnjay lightTheme={lightTheme} toggleTheme={toggleTheme} />
-      <div className="mx-5 my-3"></div>
+      <HeroSection lightTheme={lightTheme}></HeroSection>
     </>
   );
 }
