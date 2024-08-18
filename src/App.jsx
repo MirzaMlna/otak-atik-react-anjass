@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <NavbarAnjay lightTheme={lightTheme} toggleTheme={toggleTheme} />
-      <br></br>
       <div className="mx-5 my-3"></div>
     </>
   );
